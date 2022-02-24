@@ -42,8 +42,6 @@
   @extend .pInicio;
   font-size: 26px;
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
 } 
  /* Estilos imagenes del aside */
 .aside__image{
@@ -53,6 +51,7 @@
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+
 }
  /* Estilos del formulario */
 .form--fondo{
@@ -63,10 +62,6 @@
     margin-top: 50px;
     border:#6155A6 solid;
     margin: auto;
-}
-
-.slider{
-  margin-left: 30%;
 }
 
 /* FOOTER */

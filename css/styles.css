@@ -74,9 +74,7 @@ body {
 /* Uso del extend para un parrafo */
 .pNosotros {
   font-size: 26px;
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 100px; }
+  text-align: left; }
 
 /* Estilos imagenes del aside */
 .aside__image {
@@ -96,9 +94,6 @@ body {
   margin-top: 50px;
   border: #6155A6 solid;
   margin: auto; }
-
-.slider {
-  margin-left: 30%; }
 
 /* FOOTER */
 .footer {
