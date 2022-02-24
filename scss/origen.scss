@@ -64,6 +64,26 @@
     margin: auto;
 }
 
+
+@media (max-width: 2000px) {
+.slider{
+    max-width: 35%;
+    max-height: 35%;
+    }
+}
+@media (max-width: 900px) {
+    .slider{
+        max-width: 60%;
+        max-height: 60%;
+        }   
+}
+@media (max-width: 600px) {
+    .slider{
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+
 /* FOOTER */
 .footer{
     width: 100%;
