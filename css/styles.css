@@ -89,6 +89,9 @@ body {
   border: #6155A6 solid;
   margin: auto; }
 
+.slider {
+  margin-left: 30%; }
+
 /* FOOTER */
 .footer {
   width: 100%;
