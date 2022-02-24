@@ -108,7 +108,15 @@ body {
 @media (max-width: 600px) {
   .slider {
     max-width: 90%;
-    max-height: 90%; } }
+    max-height: 90%; }
+  .pInicio, .pInicio2, .pNosotros {
+    font-size: 12px; }
+  .pInicio2 {
+    font-size: 12px; }
+  .pNosotros {
+    font-size: 12px; }
+  .servicios {
+    font-size: 12px; } }
 
 /* FOOTER */
 .footer {
