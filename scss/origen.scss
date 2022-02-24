@@ -17,12 +17,22 @@
 }
  /* Estilos del h2 */
 .h2Main{
-    @include titulos(white,20px);
+    @include titulos(white,40px);
+    margin-top: 50px;
+
 }
  /* Estilos del parrafo del inicio */
 .pInicio{
-    font-size: 20px;
-    text-align: center;
+    font-size: 25px;  
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+.pInicio2{
+    @extend .pInicio;
+}
+
+.servicios{
+    font-size: 25px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -31,6 +41,9 @@
 .pNosotros{
   @extend .pInicio;
   font-size: 26px;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
 } 
  /* Estilos imagenes del aside */
 .aside__image{

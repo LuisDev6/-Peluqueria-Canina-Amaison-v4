@@ -56,19 +56,27 @@ body {
 .h2Main {
   font-family: Lobster, 'lobster', Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-bottom: 20px;
-  background-color: white; }
+  margin-bottom: 40px;
+  background-color: white;
+  margin-top: 50px; }
 
 /* Estilos del parrafo del inicio */
-.pInicio, .pNosotros {
-  font-size: 20px;
-  text-align: center;
+.pInicio, .pInicio2, .pNosotros {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.servicios {
+  font-size: 25px;
   margin-left: 50px;
   margin-right: 50px; }
 
 /* Uso del extend para un parrafo */
 .pNosotros {
-  font-size: 26px; }
+  font-size: 26px;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 /* Estilos imagenes del aside */
 .aside__image {
